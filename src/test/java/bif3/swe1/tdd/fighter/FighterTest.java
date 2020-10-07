@@ -55,4 +55,9 @@ public class FighterTest {
         // Assert
         Assertions.assertEquals(LightsaberColor.Unknown, actual);
     }
+
+    @Test
+    public void testNoGood() {
+        Assertions.fail("no good test");
+    }
 }
